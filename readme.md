@@ -27,7 +27,6 @@
 
 - Copy kubernetes.repo file to all 3 VMs at /etc/yum.repos.d/kubernetes.repo
 - Run these command to install required package:
-
 		sudo yum clean all && sudo yum -y makecache
 		sudo yum -y install epel-release vim git curl wget kubelet kubeadm kubectl --disableexcludes=kubernetes
 
